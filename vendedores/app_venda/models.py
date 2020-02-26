@@ -21,8 +21,8 @@ class Vendedor(models.Model):
         self.total = self.calc_t + self.calc_v
         return self.total
         
-    salario = Calculo(valor_venda,qt_hr_trabalhadas)
-    Set_salario = models.FloatField("salario")
+   
+    
     
     def __str__(self):
             return self.nome
